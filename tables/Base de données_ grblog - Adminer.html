@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://localhost/adminer/?username=root&db=grblog -->
+<html lang="fr" dir="ltr"><link type="text/css" rel="stylesheet" id="dark-mode-general-link"><link type="text/css" rel="stylesheet" id="dark-mode-custom-link"><style lang="en" type="text/css" id="dark-mode-custom-style"></style><link type="text/css" id="dark-mode" rel="stylesheet" href="http://localhost/adminer/?username=root&amp;db=grblog"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex">
+<title>Base de données: grblog - Adminer</title>
+<link rel="stylesheet" type="text/css" href="./Base de données_ grblog - Adminer_files/saved_resource">
+<script src="./Base de données_ grblog - Adminer_files/saved_resource(1)" nonce=""></script>
+<link rel="shortcut icon" type="image/x-icon" href="http://localhost/adminer/?file=favicon.ico&amp;version=4.7.7">
+<link rel="apple-touch-icon" href="http://localhost/adminer/?file=favicon.ico&amp;version=4.7.7">
+
+</head><body class="ltr js">
+<script nonce="">
+mixin(document.body, {onkeydown: bodyKeydown, onclick: bodyClick});
+document.body.className = document.body.className.replace(/ nojs/, ' js');
+var offlineMessage = 'Vous êtes hors ligne.';
+var thousandsSeparator = ',';
+</script>
+
+<div id="help" class="jush-sql jsonly hidden"></div>
+<script nonce="">mixin(qs('#help'), {onmouseover: function () { helpOpen = 1; }, onmouseout: helpMouseout});</script>
+
+<div id="content">
+<p id="breadcrumb"><a href="http://localhost/adminer/">MySQL</a> » <a href="http://localhost/adminer/?username=root" accesskey="1" title="Alt+Shift+1">Serveur</a> » Base de données: grblog
+</p><h2>Base de données: grblog</h2>
+<div id="ajaxstatus" class="jsonly hidden hidden"></div>
+<p class="links"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;database=">Modifier la base de données</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;schema=">Schéma de la base de données</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;privileges=">Privilèges</a>
+</p><h3 id="tables-views">Tables et vues</h3>
+<form action="http://localhost/adminer/?username=root&amp;db=grblog" method="post">
+<fieldset><legend>Rechercher dans les tables <span id="selected2">(4)</span></legend><div><input type="search" name="query" value=""><script nonce="">qsl('input').onkeydown = partialArg(bodyKeydown, 'search');</script> <input type="submit" name="search" value="Rechercher">
+</div></fieldset>
+<div class="scrollable">
+<table cellspacing="0" class="nowrap checkable">
+<script nonce="">mixin(qsl('table'), {onclick: tableClick, ondblclick: partialArg(tableClick, true)});</script>
+<thead><tr class="wrap"><td><input id="check-all" type="checkbox" class="jsonly"><script nonce="">qs('#check-all').onclick = partial(formCheck, /^(tables|views)\[/);</script></td><th>Table</th><td>Moteur<a href="https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Interclassement<a href="https://dev.mysql.com/doc/refman/8.0/en/charset-charsets.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Longueur des données<a href="https://dev.mysql.com/doc/refman/8.0/en/show-table-status.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Longueur de l'index<a href="https://dev.mysql.com/doc/refman/8.0/en/show-table-status.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Espace inutilisé<a href="https://dev.mysql.com/doc/refman/8.0/en/show-table-status.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Incrément automatique<a href="https://dev.mysql.com/doc/refman/8.0/en/example-auto-increment.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Lignes<a href="https://dev.mysql.com/doc/refman/8.0/en/show-table-status.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td><td>Commentaire<a href="https://dev.mysql.com/doc/refman/8.0/en/show-table-status.html" target="_blank" rel="noreferrer noopener"><sup>?</sup></a></td></tr></thead>
+<tbody><tr class=""><td><input type="checkbox" name="tables[]" value="category" aria-labelledby="Table-category"></td><th><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=category" title="Afficher la structure" id="Table-category">category</a></th><td id="Engine-category">MyISAM</td><td id="Collation-category">utf8_general_ci</td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=category" id="Data_length-category" title="Modifier la table">36</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;indexes=category" id="Index_length-category" title="Modifier les index">2,048</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;edit=category" id="Data_free-category" title="Nouvel élément">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;auto_increment=1&amp;create=category" id="Auto_increment-category" title="Modifier la table">2</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=category" id="Rows-category" title="Afficher les données">1</a></td><td id="Comment-category"></td></tr><tr class="odd"><td><input type="checkbox" name="tables[]" value="post" aria-labelledby="Table-post"></td><th><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=post" title="Afficher la structure" id="Table-post">post</a></th><td id="Engine-post">MyISAM</td><td id="Collation-post">utf8_general_ci</td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=post" id="Data_length-post" title="Modifier la table">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;indexes=post" id="Index_length-post" title="Modifier les index">1,024</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;edit=post" id="Data_free-post" title="Nouvel élément">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;auto_increment=1&amp;create=post" id="Auto_increment-post" title="Modifier la table">1</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=post" id="Rows-post" title="Afficher les données">0</a></td><td id="Comment-post"></td></tr><tr class=""><td><input type="checkbox" name="tables[]" value="post_category" aria-labelledby="Table-post_category"></td><th><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=post_category" title="Afficher la structure" id="Table-post_category">post_category</a></th><td id="Engine-post_category">MyISAM</td><td id="Collation-post_category">utf8_general_ci</td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=post_category" id="Data_length-post_category" title="Modifier la table">9</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;indexes=post_category" id="Index_length-post_category" title="Modifier les index">3,072</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;edit=post_category" id="Data_free-post_category" title="Nouvel élément">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;auto_increment=1&amp;create=post_category" id="Auto_increment-post_category" title="Modifier la table">1</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=post_category" id="Rows-post_category" title="Afficher les données">1</a></td><td id="Comment-post_category"></td></tr><tr class="odd"><td><input type="checkbox" name="tables[]" value="user" aria-labelledby="Table-user"></td><th><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=user" title="Afficher la structure" id="Table-user">user</a></th><td id="Engine-user">MyISAM</td><td id="Collation-user">utf8_general_ci</td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=user" id="Data_length-user" title="Modifier la table">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;indexes=user" id="Index_length-user" title="Modifier les index">1,024</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;edit=user" id="Data_free-user" title="Nouvel élément">0</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;auto_increment=1&amp;create=user" id="Auto_increment-user" title="Modifier la table">1</a></td><td align="right"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=user" id="Rows-user" title="Afficher les données">0</a></td><td id="Comment-user"></td></tr><tr><td></td><th>4 au total</th><td></td><td>utf8_general_ci</td><td align="right" id="sum-Data_length">45</td><td align="right" id="sum-Index_length">7,168</td><td align="right" id="sum-Data_free">0</td></tr></tbody></table>
+</div>
+<div class="footer"><div>
+<fieldset><legend>Sélectionnée(s) <span id="selected">(0)</span></legend><div><input type="submit" value="Analyser" disabled=""> <script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'ANALYZE TABLE', 0) }, onmouseout: helpMouseout});</script><input type="submit" name="optimize" value="Optimiser" disabled=""> <script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'OPTIMIZE TABLE', 0) }, onmouseout: helpMouseout});</script><input type="submit" name="check" value="Vérifier" disabled=""> <script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'CHECK TABLE', 0) }, onmouseout: helpMouseout});</script><input type="submit" name="repair" value="Réparer" disabled=""> <script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'REPAIR TABLE', 0) }, onmouseout: helpMouseout});</script><input type="submit" name="truncate" value="Tronquer" disabled=""> <script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'TRUNCATE TABLE', 0) }, onmouseout: helpMouseout});</script><script nonce="">qsl('input').onclick = function () { return confirm('Êtes-vous certain(e) ?'); };</script><input type="submit" name="drop" value="Supprimer" disabled=""><script nonce="">mixin(qsl('select, input'), {onmouseover: function (event) { helpMouseover.call(this, event, 'DROP TABLE', 0) }, onmouseout: helpMouseout});</script><script nonce="">qsl('input').onclick = function () { return confirm('Êtes-vous certain(e) ?'); };</script>
+<p>Déplacer vers une autre base de données: <select name="target"><option selected="">grblog</option><option>information_schema</option><option>mysql</option><option>performance_schema</option><option>sys</option></select> <input type="submit" name="move" value="Déplacer" disabled=""> <input type="submit" name="copy" value="Copier" disabled=""> <label><input type="checkbox" name="overwrite" value="1">overwrite</label>
+<input type="hidden" name="all" value=""><script nonce="">qsl('input').onclick = function () { selectCount('selected', formChecked(this, /^(tables|views)\[/)); selectCount('selected2', formChecked(this, /^tables\[/) || 4); }</script>
+<input type="hidden" name="token" value="915678:679108">
+</p></div></fieldset>
+</div></div>
+</form>
+<script nonce="">tableCheck();</script>
+<p class="links"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=">Créer une table</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;view=">Créer une vue</a>
+</p><h3 id="routines">Routines</h3>
+<p class="links"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;procedure=">Créer une procédure</a><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;function=">Créer une fonction</a>
+</p><h3 id="events">Évènements</h3>
+<p class="links"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;event=">Créer un évènement</a>
+<script nonce="">ajaxSetHtml('?username=root&db=grblog&script=db');</script>
+</p></div>
+
+<form action="http://localhost/adminer/?username=root&amp;db=grblog" method="post">
+<div id="lang">Langue: <select name="lang"><option value="en">English</option><option value="ar">العربية</option><option value="bg">Български</option><option value="bn">বাংলা</option><option value="bs">Bosanski</option><option value="ca">Català</option><option value="cs">Čeština</option><option value="da">Dansk</option><option value="de">Deutsch</option><option value="el">Ελληνικά</option><option value="es">Español</option><option value="et">Eesti</option><option value="fa">فارسی</option><option value="fi">Suomi</option><option value="fr" selected="">Français</option><option value="gl">Galego</option><option value="he">עברית</option><option value="hu">Magyar</option><option value="id">Bahasa Indonesia</option><option value="it">Italiano</option><option value="ja">日本語</option><option value="ka">ქართული</option><option value="ko">한국어</option><option value="lt">Lietuvių</option><option value="ms">Bahasa Melayu</option><option value="nl">Nederlands</option><option value="no">Norsk</option><option value="pl">Polski</option><option value="pt">Português</option><option value="pt-br">Português (Brazil)</option><option value="ro">Limba Română</option><option value="ru">Русский</option><option value="sk">Slovenčina</option><option value="sl">Slovenski</option><option value="sr">Српски</option><option value="sv">Svenska</option><option value="ta">த‌மிழ்</option><option value="th">ภาษาไทย</option><option value="tr">Türkçe</option><option value="uk">Українська</option><option value="vi">Tiếng Việt</option><option value="zh">简体中文</option><option value="zh-tw">繁體中文</option></select><script nonce="">qsl('select').onchange = function () { this.form.submit(); };</script> <input type="submit" value="Utiliser" class="hidden">
+<input type="hidden" name="token" value="139903:362085">
+</div>
+</form>
+<form action="http://localhost/adminer/?username=root&amp;db=grblog" method="post">
+<p class="logout">
+<input type="submit" name="logout" value="Déconnexion" id="logout">
+<input type="hidden" name="token" value="915678:679108">
+</p>
+</form>
+<div id="menu">
+<h1>
+<a href="https://www.adminer.org/" target="_blank" rel="noreferrer noopener" id="h1">Adminer</a> <span class="version">4.7.7</span>
+<a href="https://www.adminer.org/#download" target="_blank" rel="noreferrer noopener" id="version">4.7.8</a>
+</h1>
+<script src="./Base de données_ grblog - Adminer_files/saved_resource(2)" nonce=""></script>
+<script nonce="">
+var jushLinks = { sql: [ '?username=root&db=grblog&table=$&', /\b(category|post|post_category|user)\b/g ] };
+jushLinks.bac = jushLinks.sql;
+jushLinks.bra = jushLinks.sql;
+jushLinks.sqlite_quo = jushLinks.sql;
+jushLinks.mssql_bra = jushLinks.sql;
+bodyLoad('8.0');
+</script>
+<form action="http://localhost/adminer/?username=root&amp;db=grblog">
+<p id="dbs">
+<input type="hidden" name="username" value="root"><span title="base de données">DB</span>: <select name="db"><option value=""></option><option selected="">grblog</option><option>information_schema</option><option>mysql</option><option>performance_schema</option><option>sys</option></select><script nonce="">mixin(qsl('select'), {onmousedown: dbMouseDown, onchange: dbChange});</script>
+<input type="submit" value="Utiliser" class="hidden">
+</p></form>
+<p class="links"><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;sql=">Requête SQL</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;import=">Importer</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;dump=" id="dump">Exporter</a>
+<a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;create=">Créer une table</a>
+</p><ul id="tables"><script nonce="">mixin(qs('#tables'), {onmouseover: menuOver, onmouseout: menuOut});</script>
+<li><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=category" class="select">select</a> <a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=category" class="structure" title="Afficher la structure">category</a>
+</li><li><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=post" class="select">select</a> <a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=post" class="structure" title="Afficher la structure">post</a>
+</li><li><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=post_category" class="select">select</a> <a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=post_category" class="structure" title="Afficher la structure">post_category</a>
+</li><li><a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;select=user" class="select">select</a> <a href="http://localhost/adminer/?username=root&amp;db=grblog&amp;table=user" class="structure" title="Afficher la structure">user</a>
+</li></ul>
+</div>
+<script nonce="">setupSubmitHighlight(document);</script>
+</body></html>
